@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bibliophiles</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- custom css files -->
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">Bibliophiles</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of nav bar -->
+
+    <!-- header  -->
+    <header class="flex">
+        <div class="container">
+            <div class="header-title">
+                <h1>A book is a dream that you hold in your hand.</h1>
+                <p>Books are a gateway to different worlds, offering endless opportunities for exploration, learning,
+                    and imagination.Through books, we can travel across time and space, diving into historical eras,
+                    futuristic landscapes, or the intricate minds of characters we may never meet in real life. They are
+                    vessels of human thought, filled with stories, ideas, and wisdom passed down through generations.
+                </p>
+            </div>
+            <div class="header-form"> 
+                <h2>Choose Book to Read:</h2>
+                <form class="flex">
+                    <input type="text" class="form-control" placeholder="Book name">
+                    <!-- <input type="number" class="form-control" placeholder="Price ($)"> -->
+                    <input type="submit" class="btn" value="Search">
+                </form>
+            </div>
+        </div>
+    </header>
+    <!--  end of  header section-->
+
+    <!-- featured section -->
+    <section id="featured" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">know about some Books before your Read</span>
+                <h2 class="lg-title">Featured Books</h2>
+            </div>
+
+            <div class="featured-row">
+                <div class="featured-item my-2 shadow">
+                    <img src="https://3.bp.blogspot.com/-u5z4MnncCTk/Vd4L6lys3EI/AAAAAAAAFOs/GHOQli7FCEg/s1600/hamlet-poster-1.jpg"
+                        alt="featured Books">
+                    <div class="featured-item-content">
+                        <span>
+                            Hamlet, William shakespeare.
+                        </span>
+                        <div>
+                            <p class="text">The story follows Prince Hamlet, the protagonist, who is deeply affected by
+                                the sudden death of his father, King Hamlet. Soon after, his mother, Queen Gertrude,
+                                marries his uncle, Claudius, who has ascended the throne.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="https://www.techietonics.com/wp-content/uploads/2021/09/the-stranger-albert-camus-1.jpg"
+                        alt="featured Book">
+                    <div class="featured-item-content">
+                        <span>
+                            The Stranger, Albert Camus.
+                        </span>
+                        <div>
+                            <p class="text">The novel is divided into two parts: the first part follows Meursault’s
+                                everyday life, highlighting his passive and indifferent attitude toward the world. When
+                                his mother dies, he shows little grief, attending her funeral almost out of obligation.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="https://media1.popsugar-assets.com/files/thumbor/aeN3racqMC0h-DE0pGsGulzTqYU/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2016/07/06/021/n/1922283/4d7d4fa5_shining/i/Shining-Stephen-King.jpg"
+                        alt="featured Book">
+                    <div class="featured-item-content">
+                        <span>
+                            The Shining, Stephen King.
+                        </span>
+                        <div>
+                            <p class="text">The Shining (1977) by Stephen King is a psychological horror novel that
+                                explores themes of isolation, madness, and supernatural forces. It is one of King’s most
+                                famous works and has left a lasting impact on both literature and popular culture.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="https://dwcp78yw3i6ob.cloudfront.net/wp-content/uploads/2016/12/09134617/FellowshipoftheRing-1024x1569.jpg"
+                        alt="featured Book">
+                    <div class="featured-item-content">
+                        <span>
+                            The Fellowship of the Ring ,J.R.R. Tolkien.
+                        </span>
+                        <div>
+                            <p class="text">The Fellowship of the Ring (1954) is the first volume in The Lord of the
+                                Rings trilogy by J.R.R. Tolkien, a cornerstone of fantasy literature. Set in the richly
+                                detailed world of Middle-earth, the novel follows a group of diverse characters on an
+                                epic journey to destroy a powerful and evil artifact known as the One Ring.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="http://cdn.sheknows.com/articles/2014/09/Elizabeth_S/1051941/10-anne-frank-the-diary-of-a-young-girl.jpg"
+                        alt="featured Book">
+                    <div class="featured-item-content">
+                        <span>
+                            The Diary of a Young Girl, Anne Frank.
+                        </span>
+                        <div>
+                            <p class="text">The Diary of a Young Girl by Anne Frank, first published in 1947, is a
+                                deeply moving and poignant account of the life of Anne Frank, a Jewish teenager, during
+                                the Holocaust. The book is composed of entries from Anne’s personal diary, which she
+                                kept while hiding from the Nazis during World War II. It is one of the most widely read
+                                and significant works to emerge from the Holocaust, providing a personal and relatable
+                                perspective on the horrors of that time.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="https://media.s-bol.com/mOlQOVQ2OYXG/801x1200.jpg" alt="featured book">
+                    <div class="featured-item-content">
+                        <span>
+                            Silent Spring, Rachel Carson.
+                        </span>
+                        <div>
+                            <p class="text">Silent Spring by Rachel Carson, published in 1962, is a groundbreaking work
+                                that is often credited with launching the modern environmental movement. In this
+                                influential book, Carson addresses the dangers of pesticides, particularly DDT, and
+                                their detrimental effects on the environment, wildlife, and human health.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="featured-item my-2 shadow">
+                    <img src="http://ecx.images-amazon.com/images/I/61wez-tuSeL.jpg" alt="featured Book">
+                    <div class="featured-item-content">
+                        <span>
+                            The Omnivore’s Dilemma, Michael Pollan.
+                        </span>
+                        <div>
+                            <p class="text">The Omnivore’s Dilemma: A Natural History of Four Meals by Michael Pollan,
+                                published in 2006, is a thought-provoking exploration of the food we eat, the systems
+                                that produce it, and the complex choices we face as omnivores. Pollan investigates the
+                                origins of our meals and the environmental, ethical, and health implications of our
+                                dietary decisions.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="featured-item my-2 shadow">
+                    <img src="https://images.thenile.io/r1000/9780330468466.jpg" alt="featured Book">
+                    <div class="featured-item-content">
+                        <span>
+                            The Road ,Cormac McCarthy.
+                        </span>
+                        <div>
+                            <p class="text">The Road by Cormac McCarthy, published in 2006, is a haunting and poignant
+                                post-apocalyptic novel that explores themes of survival, love, and the struggle for
+                                humanity in the face of overwhelming desolation. Set in a bleak and devastated world,
+                                the story follows a father and his young son as they journey through a landscape
+                                stripped of life, civilization, and hope.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="featured-item my-2 shadow">
+                    <img src="https://www.headbutler.com/wp-content/uploads/2014/09/81VMqrRZMzL._SL1500_.jpg"
+                        alt="featured Book">
+                    <div class="featured-item-content">
+                        <span>
+                            The Things They Carried,Tim O’Brien.
+                        </span>
+                        <div>
+                            <p class="text">The Things They Carried by Tim O’Brien, published in 1990, is a powerful
+                                collection of interconnected short stories that explore the experiences of soldiers
+                                during the Vietnam War. Blending elements of fiction and memoir, O’Brien delves into the
+                                psychological and emotional burdens carried by soldiers, as well as the complexities of
+                                memory, storytelling, and the nature of truth in the context of war.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+    <!-- end of featured section -->
+
+    <!-- services section -->
+    <section id="services" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">know about services that we offer</span>
+                <h2 class="lg-title">Our services</h2>
+            </div>
+
+            <div class="services-row">
+                <div class="services-item">
+                    <span class="services-icon">
+                        <i class="fas fa-hotel"></i>
+                    </span>
+                    <h3>Online Library</h3>
+                    <p class="text">books that are available in a digital format, often distributed via websites, eBook
+                        platforms, or libraries. These books can be fiction, non-fiction, academic texts, reference
+                        works, or even manuals. Some are free to access, especially classics and public domain works,
+                        while others are available through purchase or subscription services.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+
+                <div class="services-item">
+                    <span class="services-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </span>
+                    <h3>Service to all Location</h3>
+                    <p class="text">Businesses that offer services to all locations ensure that they can reach customers
+                        in urban, rural, and even remote areas.Offering service to all locations often includes
+                        providing customer support across different time zones, languages, and regions. Customers
+                        benefit from being able to access services no matter where they live, whether in a major city or
+                        a rural area.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+
+                <div class="services-item">
+                    <span class="services-icon">
+                        <i class="fas fa-money-bill"></i>
+                    </span>
+                    <h3>Suitable Price</h3>
+                    <p class="text">The price is transparent, with no hidden costs, allowing customers to feel that they
+                        are paying a fair amount. It is essential that they understand what they are paying for and that
+                        the pricing makes sense given the costs involved, such as production or delivery.Customers
+                        compare prices with similar offerings in the market.Customers feel confident they’re getting a
+                        good deal.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of services section -->
+
+    <!-- testimonials section -->
+    <section id="testimonials" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">what our clients say about us</span>
+                <h2 class="lg-title">testimonials</h2>
+            </div>
+
+            <div class="test-row">
+                <div class="test-item">
+                    <p class="text">Their return policy is straightforward, which gives me peace of mind when buying. I
+                        once ordered the wrong book, and returning it was hassle-free, with my refund processed within a
+                        few days</p>
+                    <div class="test-item-info">
+                        <img src="https://img.freepik.com/premium-photo/portrait-handsome-white-guy-image-generated-by-ai_803126-1310.jpg"
+                            alt="testimonial">
+                        <div>
+                            <h3>Damon</h3>
+                            <p class="text"> from France</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="test-item">
+                    <p class="text">I love the wide variety of e-books and audiobooks they offer. I can sync them across
+                        my devices, and the quality of the audiobooks, especially, is fantastic. Great for someone who
+                        enjoys reading on the go</p>
+                    <div class="test-item-info">
+                        <img src="https://tse1.mm.bing.net/th?id=OIP.WEdLWgLejPy_n8k7cfa8tQHaGL&pid=Api&P=0&h=180"
+                            alt="testimonial">
+                        <div>
+                            <h3>Liya</h3>
+                            <p class="text">From Italy</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="test-item">
+                    <p class="text">This bookstore has a vibrant community. I enjoy reading the blog posts and
+                        participating in the online book clubs they host. It feels more personal and engaging compared
+                        to other platforms.</p>
+                    <div class="test-item-info">
+                        <img src="https://img.freepik.com/premium-photo/guy-suit-professional-masculine_917792-189.jpg"
+                            alt="testimonial">
+                        <div>
+                            <h3>Sam</h3>
+                            <p class="text">From Germany</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of testimonials section -->
+
+    <!-- video section -->
+    <section id="video">
+        <div class="video-wrapper flex">
+            <video autoplay loop muted>             
+                <source src="https://cdn.pixabay.com/video/2020/11/29/57753-486147545_tiny.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+    <!-- end of video section -->
+
+    <!-- footer -->
+    <footer class="py-4">
+        <div class="container footer-row">
+            <div class="footer-item">
+                <a href="index.html" class="site-brand">
+                    Bibliophiles
+                </a>
+                <p class="text">The layout of Bibliophiles is so clean and easy to navigate. The intuitive design helps
+                    you to quickly find the books your looking for, and the personalized recommendations based on your
+                    reading history are spot on.</p>
+            </div>
+
+            <div class="footer-item">
+                <h2>Follow us on: </h2>
+                <ul class="social-links">
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-pinterest"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-google-plus"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-item">
+                <h2>Recommended Books:</h2>
+                <ul>
+                    <li><a href="https://www.amazon.com/dp/0593449592?tag=thenewyorktim-20https://www.amazon.com/dp/0593449592?tag=thenewyorktim-20">Counting Miracles</a></li>
+                    <li><a href="https://www.amazon.com/dp/0374602638?tag=thenewyorktim-20">Intermezzo</a></li>
+                    <li><a href="https://www.amazon.com/dp/0593655036?tag=thenewyorktim-20">The Anxious Generation:</a>
+                    </li>
+                    <li><a href="https://www.amazon.com/dp/0525657320?tag=thenewyorktim-20">The Art Thief</a></li>
+                    <li><a href="https://www.amazon.com/dp/0593712641?tag=thenewyorktim-20">Good Energy</a></li>
+                </ul>
+            </div>
+
+            <div class="subscribe-form footer-item">
+                <h2>Subscribe...!</h2>
+                <form class="flex">
+                    <input type="email" placeholder="Enter Email" class="form-control">
+                    <input type="submit" class="btn" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
